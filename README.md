@@ -20,7 +20,7 @@ The project have the following characters:
 
 Result of this project is like this:
 
-<img src="https://i.loli.net/2020/04/18/t6uAryS84F7VwPH.png" height=700  style="zoom: 33%;" />
+<img src="https://i.loli.net/2020/04/18/t6uAryS84F7VwPH.png" width=700  style="zoom: 33%;" />
 
 The origin text file is:
 ```
