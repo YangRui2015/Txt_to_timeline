@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body{ background:#5CB8E5} 
+
+img {
+    max-width: 70%;
+    height: auto;
+  }
+
+
+.wrapper {
+    font-family: roboto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.box-area {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.box-date {
+    display: flex;
+    /* 是用渐变做的直线 */
+    background: linear-gradient(to right, #5CB8E5 45%, #000 45%, #000 45%, #5CB8E5 50%);
+    order: 2;
+    text-align: center;
+    font-size: 25px;
+    flex-basis: 100px;
+    color: #fff;
+}
+
+.box-date>span {
+    font-size: 20px;
+    padding: 10px;
+    margin: auto;
+    background: rgb(253, 171, 17);
+}
+
+.box-text {
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+    color: #000;
+    order: 3;
+    width: 80%;
+    padding-left: 10px;
+    background: #f4f5f9;
+    margin-bottom: 3%;
+}
+
+.box-text h1 {
+    color: #FFA500;
+    margin: 0;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.box-text h2 {
+    color: #000;
+    margin: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.box-text h3 {
+    margin: 5px;
+    font-size: 18px;
+    color: #000;
+}
+
+@media(min-width:640px) {
+    .box-text,
+    .custom {
+        width: 40%;
+    }
+    .box-right .box-text {
+        order: 1;
+        padding-right: 10px;
+        border-radius: 25px;
+    }
+    .box-right .custom {
+        order: 3;
+    }
+}
+
